@@ -1,0 +1,36 @@
+# Python Caches
+__pycache__/
+*.py[cod]
+*$*
+.ipynb_checkpoints/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Project caches and Hugging Face downloads
+.cache/
+.cache/huggingface/
+.cache/tmp/
+
+# Datasets (only ignore files, keep directory structure)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Models checkpoints and outputs
+models/phobert_sentiment/*
+!models/phobert_sentiment/.gitkeep
+models/phobert_sentiment_final/
+
+# Outputs and predictions
+outputs/figures/*.png
+outputs/reports/*
+outputs/predictions.csv
+
+# IDE Configurations
+.vscode/
+.idea/

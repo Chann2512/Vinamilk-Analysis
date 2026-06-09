@@ -1,4 +1,4 @@
-# 📊 Shopee Sentiment Analysis & Aspect Classification Project
+# **Shopee Sentiment Analysis & Aspect Classification Project**
 
 This repository contains a modularized, production-ready implementation of a multi-aspect sentiment analysis pipeline optimized for E-commerce data. 
 

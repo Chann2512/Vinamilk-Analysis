@@ -10,6 +10,8 @@ Focusing on **Vinamilk's Official Store on Shopee Mall**, this project leverages
 
 **Vinamilk** is the leading national brand in the dairy sector. As consumer behavior shifts dynamically toward digital channels, managing brand health and customer experience on e-commerce platforms like Shopee is critical. 
 
+![Vinamik](https://github.com/Chann2512/Vinamilk-Analysis/blob/d82204ed18adc70e163c179ac30cd00d9dc8811f/Vinamilk.jpg)
+
 ### The Problem:
 * **The "Coin-Reward Blindspot":** E-commerce datasets suffer from extreme **Positive Bias**. Shopee’s reward system incentivizes buyers to instantly rate 5-stars with generic phrases (*"good product"*, *"fast delivery"*) to earn loyalty coins. 
 * **Hidden Friction Points:** Standard aggregate metrics (such as Star Ratings) completely mask underlying operational flaws. If a customer is furious about a dented milk carton or rude customer service but still clicks 5-stars for rewards, traditional business intelligence treats it as a perfect transaction.
@@ -135,7 +137,9 @@ Deploying this pipeline across the analytical framework generated key operationa
 
 * **Insight 1 - Core Trust Stability:** Product Quality acts as the main positive driver (99.3% positive baseline). Brand retention is anchored strongly in flavor consistency and nutritional trust.
 * **Insight 2 - Delivery Vulnerabilities:** Negative feedback spikes primarily within **Logistics (1.3% negative cluster)** and **Service (1.1% negative cluster)** due to dented boxes and package leaks caused during transit.
+![Picture](https://github.com/Chann2512/Vinamilk-Analysis/blob/f1886384b1479a6638a3b3264fd8a4a9c81ff0bb/Core%20Trust%20Stability.png)
 * **Insight 3 - Promotion Seasonality:** Sentiment trends exhibit strict seasonality. Volummetric interaction climbs significantly during Mega-Sale days (11.11, 12.12), dropping abruptly during February ("The Tet Slack").
+![Picture](https://github.com/Chann2512/Vinamilk-Analysis/blob/a9c12aad4eb4eb1a552f6ba67f2223bbaa2f08e2/Promotion%20Seasonality.png)
 
 ---
 
@@ -152,15 +156,5 @@ Deploying this pipeline across the analytical framework generated key operationa
 ### 💼 Long-Term Vision
 * Embed sentiment engine pipelines directly into corporate CRM architecture.
 * Drive product roadmap and consumer research decisions using continuous Voice-of-Customer (VoC) analytics.
-
----
-
-## 🎯 Strategic Business Actions Recommended
-
-Based on the Sentiment-Aspect Matrix and Time-Series trends, Vinamilk's E-commerce division should execute the following operations:
-
-1. **Logistics Partner SLA Overhaul:** Since negative sentiments are decoupled from product quality and concentrated heavily on "Delivery", Vinamilk must enforce stricter Service Level Agreements (SLAs) on Shopee’s 3PL (Third-Party Logistics) providers regarding parcel denting, liquid leaking, and transit delays.
-2. **Dynamic Customer Service Allocation:** Customer service friction scales tightly with Shopee's monthly campaign days. Live-chat support staff allocations should scale dynamically up by 40% exactly 48 hours post-Mega Sale events to handle shipping and post-purchase inquiries, suppressing the "Dịch vụ" negative index.
-3. **Packaging Optimization:** A key keyword cluster discovered in the negative delivery spectrum relates to damaged packaging. Moving from standard cardboard wraps to higher-grade shock-absorption buffers for milk cartons during peak rain or high-volume sales periods will directly eliminate structural complaints.
 
 ---
